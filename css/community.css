@@ -26,6 +26,7 @@
 }
 body {
   font-family: Circular-Medium;
+background: url(../images/background.png) no-repeat;
 }
 p {
   font-family: CircularPro-Book;
@@ -35,6 +36,9 @@ p {
   color: rgb(248, 187, 0);
   font-size: 16px;
   padding: 13px;
+}
+.automobiles:hover {
+  color: rgb(233, 176, 4);
 }
 
 
@@ -96,10 +100,19 @@ p {
   line-height: 43px;
 }
 
+.Rounded_Rectangle_9 {
+  background-color: rgb(249, 249, 249);
+  position: absolute;
+  left: 597px;
+  top: 1369px;
+  width: 746px;
+  height: 80px;
+  z-index: 44;
+}
 
 /* sections-posting */
 .posting-section {
-  padding: 55px 0 87px 0;
+  padding: 53px 0 87px 0;
 }
 .post-input::placeholder {
   font-family: CircularPro-Book;
@@ -107,7 +120,7 @@ p {
 }
 .posting-container {
   /* padding: 0 42.5px; */
-  margin-bottom: 87px;
+  margin-bottom: 90px;
 }
 .posting-box {
   border-radius: 5px;
@@ -135,7 +148,7 @@ p {
   color: rgb(248, 187, 0);
 }
 .active-btn:hover {
-  background-color: rgb(216, 176, 57);
+  background-color:rgb(233, 176, 4);
   color: white;
 }
 .inactive-btn {
@@ -144,9 +157,15 @@ p {
 }
 
 
+
+
 /* section-post1 */
 .user-name {
   font-size: 18px;
+  color: black;
+}
+.user-name:hover {
+  color: rgb(248, 187, 0);
 }
 .user-post {
   padding: 23px 16px 14px 16px;
@@ -166,12 +185,19 @@ p {
 .like-send-btn {
   margin-bottom: 24px;
 }
+.like-send-btn2 {
+  margin-bottom: 8px;
+}
 .like-comment-box {
-  padding: 12px 23px;
+  padding: 10.5px 23px;
 }
 .comment-user-name {
   font-family: CircularPro-Bold;
   font-size: 16px;
+  color: black;
+}
+.comment-user-name:hover {
+color: rgb(248, 187, 0);
 }
 .reply {
   color: #808080;
@@ -190,8 +216,9 @@ p {
   color: #808080;
   padding-left: 10px;
 }
+
 .comment-input-box {
-  padding: 19px 32px 22px 32px;
+  padding: 21px 32px 21px 32px;
   background-color: #f9f9f9;
 }
 .radius-input{
@@ -216,12 +243,15 @@ p {
 .img-border {
   border: 1px solid rgb(229, 229, 229);
   border-radius: 24px;
-  padding: 19px 0;
+  padding: 18.5px 0;
 }
 .exernal-link-icon {
   position: absolute;
   top: -5px;
   left: 36px;
+}
+.car-gap {
+  margin-bottom: 5px;
 }
 .img-box {
   padding-left: 25px;
@@ -240,9 +270,8 @@ p {
 .underscore {
   line-height: 15px;
 }
-
 .comment-sticer {
-  padding: 28px 4px;
+  padding: 29px 8px;
 }
 .btn-setter {
   width: 80px;
@@ -286,6 +315,12 @@ p {
   height: 56.25%;
 }
 
+.comment-img {
+  width: 105px;
+}
+.sticer-comment-box {
+  padding: 3px 16px 7px 16px;
+}
 
 
 
