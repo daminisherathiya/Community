@@ -16,81 +16,76 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="./images/logo.png" alt=""></a>
-        <form class="d-flex ps-2">
-          <div class="input-group search-bar overflow-hidden">
-            <span class="input-group-append">
-              <div class="input-group-text bg-white h-100 border-0"><img src="./images/search-icon.png" alt=""></div>
-            </span>
-            <input
-              class="form-control form-control-sm pl-0 border-0 shadow-none search-input"
-              autocomplete="off" type="search" placeholder="Search" id="example-search-input">
+    <div class="container-fluid">
+      <div class="my-navbar">
+        <div class="d-flex float-start brand">
+          <a href="#"><img class="logo" src="./images/logo.png" alt=""></a>
+          <form class="d-flex my-navbar-search">
+            <div class="input-group search-bar overflow-hidden">
+              <span class="input-group-append">
+                <div class="input-group-text bg-white h-100 border-0"><img src="./images/search-icon.png" alt=""></div>
+              </span>
+              <input
+                class="form-control form-control-sm pl-0 border-0 shadow-none search-input"
+                autocomplete="off" type="search" placeholder="Search" id="example-search-input">
+            </div>
+          </form>
+        </div>
+     
+        <div class="d-flex float-end profile">
+          <div class="dropdown">
+            <a class="bell-dropdown-link" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><img class="" src="./images/bell.png" alt=""></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
           </div>
-        </form>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
-          <div class="center-nav-items-wrapper mx-auto" style="flex: 1 1 auto;">
-            <!-- <ul class="nav nav-pills nav-fill">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <div class="dropdown">
+            <a class="profile-dropdown-link" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><img class="profile-pic" src="./images/user-pic.png" alt="">
+              <span class="profile-user-name">Martine</span> <img class="profile-caret" src="./images/dropedown-arrow.png" alt="" srcset="">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Much longer nav link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul> -->
-            <div class="d-flex justify-content-between" >
-              <div >
-                <a class="" href="#"><img src="./images/nav-home.png" alt=""></a>
-              </div>
-              <div>
-                <a class="" href="#"></a><img src="./images/nav-car.png" alt="">
-              </div>
-              <div>
-                <a class="" href="#"></a><img src="./images/nav-aeroplane.png" alt="">
-              </div>  
-              <div>
-                <a class="" href="#"></a><img src="./images/nav-boat.png" alt="">
-              </div>
-              <div>
-                <a class="" href="#"></a><img src="./images/nav-watch.png" alt="">
-              </div>
-              <div>
-                <a class="" href="#"></a><img src="./images/nav-u.png" alt="">
-              </div>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+     
+        <div class="center-navbar-items mx-auto">
+          <div class="d-flex justify-content-between">
+            <div>
+              <a class="" href="#"><img class="center-icon" src="./images/nav-home.png" alt=""></a>
+            </div>
+            <div>
+              <a class="" href="#"></a><img class="center-icon" src="./images/nav-car.png" alt="">
+            </div>
+            <div>
+              <a class="" href="#"></a><img class="center-icon" src="./images/nav-aeroplane.png" alt="">
+            </div>
+            <div>
+              <a class="" href="#"></a><img class="center-icon" src="./images/nav-boat.png" alt="">
+            </div>
+            <div>
+              <a class="" href="#"></a><img class="center-icon" src="./images/nav-watch.png" alt="">
+            </div>
+            <div>
+              <a class="" href="#"></a><img class="center-icon" src="./images/nav-u.png" alt="">
             </div>
           </div>
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false"><img src="./images/user-pic.png" alt="">
-                Martine <img src="./images/dropedown-arrow.png" alt="" srcset="">
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </div>
-    </nav>
+     </div>
+     
   </header>
 
 
@@ -304,7 +299,7 @@
                 </div>
                 <div class="video-container overflow-hidden">
                   <img class="w-100" src="./images/watch-video-poster.png" alt="" srcset="">
-                  <div class="light-blue-bgcolor d-flex justify-content-center align-items-center position-absolute btn-setter"><i class="fas fa-play text-white font-size-21"></i></div>
+                  <div><img src="./images/play-btn.png" alt=""></div>
                   <div class="embed-responsive embed-responsive-16by9 d-none">
                     <iframe class="overflow-hidden display-video" src="https://www.youtube.com/embed/2J7xlDH4QkA" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
