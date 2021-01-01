@@ -21,7 +21,9 @@
   font-family: CircularPro-Book !important;
 }
 /* font-end */
-
+.container {
+  max-width: 770px;
+}
 body {
   font-family: Circular-Medium;
 }
@@ -70,7 +72,7 @@ p {
   font-size: 18px;
 }
 .posting-container {
-  padding: 0 42.5px;
+  /* padding: 0 42.5px; */
   margin-bottom: 87px;
 }
 .posting-box {
@@ -93,10 +95,18 @@ p {
   padding: 8.5px 68px;
   border-radius: 25px;
 }
+.inactive-btn:hover {
+  background-color: white;
+  border: 1px solid rgb(248, 187, 0);
+  color: rgb(248, 187, 0);
+}
+.active-btn:hover {
+  background-color: rgb(216, 176, 57);
+  color: white;
+}
 .inactive-btn {
   padding: 8.5px 68px;
   border-radius: 25px;
-
 }
 
 
@@ -105,8 +115,107 @@ p {
   font-size: 18px;
 }
 .user-post {
-  padding: 23px 16px;
+  padding: 23px 16px 14px 16px;
 }
 .user-posting-time {
   font-size: 14px;
+}
+.hashtag {
+  color: rgb(248, 187, 0);
+}
+.hashtag:hover {
+  color: rgb(216, 176, 57);
+}
+.like {
+  margin-right: -10px;
+}
+.like-send-btn {
+  margin-bottom: 24px;
+}
+.like-comment-box {
+  padding: 12px 23px;
+}
+.comment-user-name {
+  font-family: CircularPro-Bold;
+  font-size: 16px;
+}
+.reply {
+  color: #808080;
+  font-size: 14px;
+}
+.comment-hr {
+  border-top: 1px solid #808080;
+  margin: 17px 0;
+}
+.comment-p {
+  color: black;
+}
+.radius-input::placeholder {
+  font-family: CircularPro-Book;
+  font-size: 14px;
+  color: #808080;
+  padding-left: 10px;
+}
+.comment-input-box {
+  padding: 19px 32px 22px 32px;
+  background-color: #f9f9f9;
+}
+.radius-input{
+  border-radius: 25px;
+  border-color: #d9d9d9;
+}
+.post-btn {
+  background-color: rgb(248, 187, 0);
+  color: white;
+  border-color: rgb(248, 187, 0);
+  padding: 0 34px;
+}
+.post-btn:hover {
+  background-color: white;
+  color: rgb(248, 187, 0);
+  border-color: rgb(248, 187, 0);
+}
+
+
+
+/* section */
+.img-border {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 24px;
+  padding: 19px 0;
+}
+.exernal-link-icon {
+  position: absolute;
+  top: -5px;
+  left: 36px;
+}
+.img-box {
+  padding-left: 25px;
+  padding-right: 8px;
+}
+.polestar2 {
+  font-size: 18px;
+  padding-right: 76px;
+}
+.polestar2 u {
+  color: rgb(248, 187, 0);
+}
+.polestar2 u:hover {
+  color: rgb(216, 176, 57);
+}
+.underscore {
+  line-height: 15px;
+}
+.Rectangle_10_copy_4 {
+  border-width: 1px;
+  border-color: rgb(229, 229, 229);
+  border-style: solid;
+  border-radius: 24px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 623px;
+  top: 1692px;
+  width: 328px;
+  height: 268px;
+  z-index: 193;
 }
