@@ -1,0 +1,112 @@
+/* font-start */
+@font-face {
+  font-family: Circular-Medium;
+  src: url(../fonts/Circular-Medium.ttf);
+}
+.font-circular-medium {
+  font-family: Circular-Medium !important;
+}
+@font-face {
+  font-family: CircularPro-Bold;
+  src: url(../fonts/lineto-circular-pro-bold-webfont.ttf);
+}
+.font-CircularPro-Bold {
+  font-family: CircularPro-Bold !important;
+}
+@font-face {
+  font-family: CircularPro-Book;
+  src: url(../fonts/lineto-circular-pro-book-webfont.ttf);
+}
+.font-CircularPro-Book {
+  font-family: CircularPro-Book !important;
+}
+/* font-end */
+
+body {
+  font-family: Circular-Medium;
+}
+p {
+  font-family: CircularPro-Book;
+  color: #808080;
+}
+.automobiles {
+  color: rgb(248, 187, 0);
+  font-size: 16px;
+  padding: 13px;
+}
+
+
+
+
+.search-bar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(29, 26, 27, 0.2);
+  border-radius: 25px;
+}
+.search-input::placeholder {
+  font-family: CircularPro-Book;
+  font-size: 16px;
+}
+.search-input {
+    padding: 10px 10px 10px 10px;
+}
+.logo {
+  padding-left: 10px;
+}
+.center-nav-items-wrapper {
+  max-width: 750px;
+}
+.navbar-height {
+  line-height: 43px;
+}
+
+
+/* sections-posting */
+.posting-section {
+  padding: 45px 0 87px 0;
+}
+.post-input::placeholder {
+  font-family: CircularPro-Book;
+  font-size: 18px;
+}
+.posting-container {
+  padding: 0 42.5px;
+  margin-bottom: 87px;
+}
+.posting-box {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 6px 0px rgba(29, 26, 27, 0.1);
+  /* padding: 11px 11px 6px 11px; */
+}
+.posting-form {
+  padding-bottom: 19px;
+  padding: 11px 11px 6px 11px;
+}
+.posting-btns {
+  padding: 11px 11px 6px 11px;
+  border-top: 2px dotted #ebebeb;
+}
+.active-btn {
+  background-color: rgb(248, 187, 0);
+  color: white;
+  padding: 8.5px 68px;
+  border-radius: 25px;
+}
+.inactive-btn {
+  padding: 8.5px 68px;
+  border-radius: 25px;
+
+}
+
+
+/* section-post1 */
+.user-name {
+  font-size: 18px;
+}
+.user-post {
+  padding: 23px 16px;
+}
+.user-posting-time {
+  font-size: 14px;
+}
