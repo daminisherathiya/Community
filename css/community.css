@@ -26,7 +26,8 @@
 }
 body {
   font-family: Circular-Medium;
-background: url(../images/background.png) no-repeat;
+  background: url(../images/background.png) no-repeat;
+  background-size: cover;
 }
 p {
   font-family: CircularPro-Book;
@@ -40,7 +41,11 @@ p {
 .automobiles:hover {
   color: rgb(233, 176, 4);
 }
-
+.exotic {
+  color: #c1c1c1;
+  font-size: 30px;
+  padding: 27px 0;
+}
 
 
 
@@ -100,33 +105,19 @@ p {
   line-height: 43px;
 }
 
-.Rounded_Rectangle_9 {
-  background-color: rgb(249, 249, 249);
-  position: absolute;
-  left: 597px;
-  top: 1369px;
-  width: 746px;
-  height: 80px;
-  z-index: 44;
-}
 
 /* sections-posting */
 .posting-section {
-  padding: 53px 0 87px 0;
+  padding: 53px 0 243px 0;
 }
 .post-input::placeholder {
   font-family: CircularPro-Book;
   font-size: 18px;
 }
-.posting-container {
-  /* padding: 0 42.5px; */
-  margin-bottom: 90px;
-}
 .posting-box {
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 3px 6px 0px rgba(29, 26, 27, 0.1);
-  /* padding: 11px 11px 6px 11px; */
 }
 .posting-form {
   padding-bottom: 19px;
@@ -348,6 +339,20 @@ color: rgb(248, 187, 0);
   }
  
 }
+@media (max-width: 991px) {
+  .img-box {
+    padding: 0 25px;
+  }
+  .posting-btns {
+    padding: 11px 11px 11px 11px;
+  }
+  .like-comment-box {
+    padding: 10.5px 15px;
+  }
+  .polestar2 {
+    padding-right: 0;
+  }
+}
 @media (max-width: 550px) {
   .brand, .profile {
     float: none !important;
@@ -365,6 +370,26 @@ color: rgb(248, 187, 0);
     top: calc(50% - 25px);
     left: calc(50% - 25px);
     font-size: 10px;
+  }
+  .user-post {
+    padding: 23px 5px 14px 5px;
+  }
+  .like-comment-box {
+    padding: 10.5px 13px;
+  }
+  .comment-box img, .comment-img {
+    width: 65px;
+  }
+  .comment-sticer {
+    padding: 17px 8px;
+  }
+  .like-comment-box div button img {
+    width: 30px;
+  }
+ }
+ @media (max-width: 320px) {
+  .like-comment-box div button img {
+    width: 25px;
   }
  }
  
