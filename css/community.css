@@ -20,6 +20,10 @@
 .font-CircularPro-Book {
   font-family: CircularPro-Book !important;
 }
+@font-face {
+  font-family: AgencyFB-Bold;
+  src: url(../fonts/AgencyFB/AgencyFB-Bold.ttf);
+}
 /* font-end */
 .container {
   max-width: 770px;
@@ -45,9 +49,14 @@ p {
   color: #c1c1c1;
   font-size: 30px;
   padding: 27px 0;
+  font-family: AgencyFB-Bold;
+  letter-spacing: 6px;
 }
 
-
+.tooltip .tooltip-inner {background-color: #303030;}
+.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: #303030;
+}
 
  
 .navbar {
@@ -174,6 +183,9 @@ p {
   background-color: white;
   border: 1px solid rgb(248, 187, 0);
   color: rgb(248, 187, 0);
+}
+.inactive-btn:hover .inactive {
+  filter: invert(57%) sepia(84%) saturate(542%) hue-rotate(9deg) brightness(130%) contrast(105%);
 }
 .active-btn:hover {
   background-color:rgb(233, 176, 4);
@@ -349,7 +361,12 @@ color: rgb(248, 187, 0);
 .sticer-comment-box {
   padding: 3px 16px 7px 16px;
 }
-
+.center-icon:hover, .bell-img:hover, .profile-caret:hover {
+  filter: invert(72%) sepia(34%) saturate(0%) hue-rotate(149deg) brightness(15%) contrast(116%);
+}
+.center-icon {
+  filter: invert(97%) sepia(1%) saturate(0%) hue-rotate(179deg) brightness(50%) contrast(86%);
+}
 
 @media (max-width: 1750px) {
   .navbar {
