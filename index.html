@@ -110,10 +110,16 @@
                       autocomplete="off" type="post" placeholder="What would you like to post Martine?" id="example-search-input">
                   </div>
                 </form>
-                <div class="posting-btns d-flex d-lg-block flex-column">
-                  <button class="btn active-btn shadow-none"><img class="pe-3" src="./images/photo-icon.png" alt="">Photos</button>
-                  <button class="btn inactive-btn shadow-none"><img class="pe-3" src="./images/video-icon.png" alt="">Video</button>
-                  <button class="btn inactive-btn shadow-none"><img class="pe-3" src="./images/article-icon.png" alt="">Articles</button>
+                <div class="posting-btns d-flex flex-column flex-sm-row text-center justify-content-center">
+                  <div>
+                    <button class="btn active-btn shadow-none text-start"><img class="pe-3" src="./images/photo-icon.png" alt="">Photos</button>
+                  </div>
+                  <div>
+                    <button class="btn inactive-btn shadow-none text-start"><img class="pe-3" src="./images/video-icon.png" alt="">Video</button>
+                  </div>
+                  <div>
+                    <button class="btn inactive-btn shadow-none text-start"><img class="pe-3" src="./images/article-icon.png" alt="">Articles</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,14 +151,14 @@
                 </div>
                 <div class="like-comment-box">
                   <div class="like-send-btn">
-                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt=""></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
                     <p class="d-inline-block ms-3 mb-0">256</p>
-                    <button class="btn p-0 shadow-none float-end pe-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
+                    <button class="btn p-0 shadow-none float-end pe-lg-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
                   </div>
                   <div class="comment-box">
-                    <div class="d-flex ps-1">
+                    <div class="d-flex">
                       <h6 class="mb-0"><a class="comment-user-name text-decoration-none" href="#">John Doe</a></h6>
                       <p class="user-posting-time mb-0 ps-1">Today at 09:35</p>
                     </div>
@@ -163,7 +169,7 @@
                   </div>
                   <hr class="comment-hr">
                   <div class="comment-box">
-                    <div class="d-flex ps-1">
+                    <div class="d-flex">
                       <h6 class="mb-0"><a class="comment-user-name text-decoration-none" href="#">Malcom Marshell</a></h6>
                       <p class="user-posting-time mb-0 ps-1">23rd Nov at 09:35</p>
                     </div>
@@ -174,7 +180,7 @@
                   </div>
                   <hr class="comment-hr">
                   <div class="comment-box">
-                    <div class="d-flex ps-1">
+                    <div class="d-flex">
                       <h6 class="mb-0"><a class="comment-user-name text-decoration-none" href="#">Andrew Flintoff</a></h6>
                       <p class="user-posting-time mb-0 ps-1">23rd Nov at 09:35</p>
                     </div>
@@ -221,14 +227,14 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="img-box">
-                      <div class="img-border overflow-hidden d-flex justify-content-center">
+                      <div class="img-border overflow-hidden d-flex justify-content-center position-relative">
                         <img class="img-fluid" src="./images/car2-img.png" alt="">
-                        <div class="position-relative"><img class="exernal-link-icon" src="./images/external-link.png" alt=""></div>
+                        <img class="exernal-link-icon" src="./images/external-link.png" alt="">
                       </div>
                     </div>   
                   </div>
                   <div class="col-lg-6">
-                    <div class="px-4 px-lg-0 mt-4 mt-lg-0">
+                    <div class="img-desc mt-4 mt-lg-0">
                       <h4 class="polestar2 mb-0">Polestar 2</h4>
                       <p class="polestar2 underscore mb-2">__</p>
                       <p class="polestar2 text-break">5-door all-electric fastback <a href="#"><u>https://www.polestar.com/us/polestar-2/</u></a></p>
@@ -237,11 +243,11 @@
                 </div>
                 <div class="like-comment-box">
                   <div class="like-send-btn2">
-                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt=""></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
                     <p class="d-inline-block ms-3 mb-0">256</p>
-                    <button class="btn p-0 shadow-none float-end pe-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
+                    <button class="btn p-0 shadow-none float-end pe-lg-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
                   </div>
                 </div>
               </div>
@@ -286,11 +292,11 @@
                 </div>
                 <div class="like-comment-box">
                   <div class="like-send-btn2">
-                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt=""></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
                     <p class="d-inline-block ms-3 mb-0">256</p>
-                    <button class="btn p-0 shadow-none float-end pe-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
+                    <button class="btn p-0 shadow-none float-end pe-lg-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
                   </div>
                 </div>
               </div>
@@ -329,11 +335,11 @@
                 </div>
                 <div class="like-comment-box">
                   <div class="like-send-btn2">
-                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt=""></button>
-                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt=""></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like1.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like2.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
+                    <button class="btn like p-0 shadow-none"><img src="./images/like3.png" alt="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Admire"></button>
                     <p class="d-inline-block ms-3 mb-0">256</p>
-                    <button class="btn p-0 shadow-none float-end pe-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
+                    <button class="btn p-0 shadow-none float-end pe-lg-2 mt-1"><img class="me-2" src="./images/send-icon.png" alt="">Send</button>
                   </div>
                 </div>
                 <div class="sticer-comment-box">
@@ -344,7 +350,7 @@
                       </div>
                       <div class="comment-sticer">
                         <h6 class="mb-0"><a class="comment-user-name text-decoration-none" href="#">John Doe</a></h6>
-                        <p class="user-posting-time mb-0 ps-1">Today at 09:35</p>
+                        <p class="user-posting-time mb-0">Today at 09:35</p>
                       </div>
                     </div>
                   </div>
@@ -355,7 +361,7 @@
                       </div>
                       <div class="comment-sticer">
                         <h4 class="mb-0"><a class="comment-user-name text-decoration-none" href="#">Malcom Marshell</a></h4>
-                        <p class="user-posting-time mb-0 ps-1">23rd November at 09:35</p>
+                        <p class="user-posting-time mb-0">23rd November at 09:35</p>
                       </div>
                     </div>
                   </div>

@@ -51,9 +51,12 @@ p {
 
  
 .navbar {
-  background-color: rgb(255, 255, 255);
-  opacity: 0.65;
+  background: url(../images/background.png) no-repeat;
+  background-size: cover;
+  /* background-color: rgb(255, 255, 255); */
+  /* opacity: 0.65; */
   box-shadow: 0px 1px 3px 0px rgba(29, 26, 27, 0.2);
+  /* background-blend-mode: screen; */
 }
 .my-navbar-collapse {
   flex-basis: calc(100% - 101px);
@@ -214,7 +217,7 @@ p {
   margin-bottom: 8px;
 }
 .like-comment-box {
-  padding: 10.5px 23px;
+  padding: 10.5px 24px;
 }
 .comment-user-name {
   font-family: CircularPro-Bold;
@@ -272,8 +275,8 @@ color: rgb(248, 187, 0);
 }
 .exernal-link-icon {
   position: absolute;
-  top: -5px;
-  left: 36px;
+  top: 17px;
+  right: 19px;
 }
 .car-gap {
   margin-bottom: 5px;
@@ -348,7 +351,6 @@ color: rgb(248, 187, 0);
 }
 
 
-
 @media (max-width: 1750px) {
   .navbar {
     padding-bottom: 0;
@@ -383,14 +385,14 @@ color: rgb(248, 187, 0);
 }
  
 @media (max-width: 991px) {
-  .img-box {
-    padding: 0 25px;
+  .img-box, .img-desc {
+    padding: 0 24px;
   }
   .posting-btns {
     padding: 11px 11px 11px 11px;
   }
-  .like-comment-box {
-    padding: 10.5px 15px;
+  .active-btn, .inactive-btn {
+    padding: 8.5px 35px;
   }
   .polestar2 {
     padding-right: 0;
@@ -424,13 +426,29 @@ color: rgb(248, 187, 0);
     padding: 10.5px 13px;
   }
   .comment-box img, .comment-img {
-    width: 65px;
+    width: 60px;
   }
   .comment-sticer {
-    padding: 17px 8px;
+    padding: 10px 8px;
   }
   .like-comment-box div button img {
     width: 30px;
+  }
+  .img-box, .img-desc {
+    padding: 0 13px;
+  }
+ }
+ @media (max-width: 475px) {
+  .post-input::placeholder {
+    font-size: 14px;
+  }
+ }
+ @media (max-width: 400px) {
+  .post-input::placeholder {
+    font-size: 10px;
+  }
+  .post-btn {
+    padding: 0 15px;
   }
  }
  @media (max-width: 320px) {
@@ -439,17 +457,3 @@ color: rgb(248, 187, 0);
   }
  }
  
- 
-/*
-.Rectangle_1 {
-  background-color: rgb(255, 255, 255);
-  opacity: 0.549;
-  box-shadow: 0px 1px 3px 0px rgba(29, 26, 27, 0.2);
-  position: absolute;
-  left: -310px;
-  top: -47px;
-  width: 2560px;
-  height: 120px;
-  z-index: 19;
-}
-*/
