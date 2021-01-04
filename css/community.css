@@ -357,6 +357,9 @@ color: rgb(248, 187, 0);
 .zoom-img {
   cursor: pointer;
 }
+.zoom-img-h {
+  height: 75vh;
+}
 .comment-img {
   width: 105px;
 }
