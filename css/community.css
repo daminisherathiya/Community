@@ -60,10 +60,10 @@ p {
 
 
 .navbar {
-  background: url(../images/background.png) no-repeat;
-  background-size: cover;
-  /* background-color: rgb(255, 255, 255);
-  opacity: 0.65; */
+  /* background: url(../images/background.png) no-repeat;
+  background-size: cover; */
+  background-color: rgb(255, 255, 255);
+  /* opacity: 0.65; */
   box-shadow: 0px 1px 3px 0px rgba(29, 26, 27, 0.2);
   /* background-blend-mode: screen; */
 }
@@ -354,18 +354,17 @@ color: rgb(248, 187, 0);
 .embed-responsive-16by9 {
   height: 56.25%;
 }
-
 .comment-img {
   width: 105px;
 }
 .sticer-comment-box {
   padding: 3px 16px 7px 16px;
 }
-.center-icon:hover, .bell-img:hover, .profile-caret:hover {
-  filter: invert(72%) sepia(34%) saturate(0%) hue-rotate(149deg) brightness(15%) contrast(116%);
-}
 .center-icon {
   filter: invert(97%) sepia(1%) saturate(0%) hue-rotate(179deg) brightness(50%) contrast(86%);
+}
+.center-icon:hover, .bell-img:hover, .profile-caret:hover, .active {
+  filter: invert(72%) sepia(34%) saturate(0%) hue-rotate(149deg) brightness(31%) contrast(116%);
 }
 
 @media (max-width: 1750px) {
