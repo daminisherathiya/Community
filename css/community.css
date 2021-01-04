@@ -354,6 +354,9 @@ color: rgb(248, 187, 0);
 .embed-responsive-16by9 {
   height: 56.25%;
 }
+.zoom-img {
+  cursor: pointer;
+}
 .comment-img {
   width: 105px;
 }
